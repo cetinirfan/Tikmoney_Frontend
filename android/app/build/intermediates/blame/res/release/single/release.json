@@ -1,0 +1,346 @@
+[
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_home.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_home.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_shopping_cart.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_shopping_cart.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_mdndata_css_properties.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_mdndata_css_properties.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_edit.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_edit.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_turkish.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_turkish.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativecheckbox_img_ic_indeterminate_check_box.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativecheckbox_img_ic_indeterminate_check_box.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_intro1.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_intro1.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_support.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_support.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativecheckbox_img_ic_check_box.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativecheckbox_img_ic_check_box.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_mdndata_css_syntaxes.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_mdndata_css_syntaxes.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_support1.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_support1.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_lib_maps_xml.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_entities_lib_maps_xml.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_tiktok.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_tiktok.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_rejected.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_rejected.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_assets_images_background.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-xxhdpi/assets_images_background.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_usercheck.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_usercheck.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_mdndata_css_atrules.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_mdndata_css_atrules.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_storecheck.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_storecheck.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_lib_maps_entities.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_entities_lib_maps_entities.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_turkey.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_turkey.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_library.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_library.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_task.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_task.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_man.jpg.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_man.jpg"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_lib_maps_legacy.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_entities_lib_maps_legacy.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_spotify.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_spotify.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/src/main/res/mipmap-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_insta.jpg.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_insta.jpg"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_dot4.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_dot4.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_english.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_english.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_intro4.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_intro4.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_user.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_user.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_taskcheck.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_taskcheck.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_dot1.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_dot1.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_homecheck.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_homecheck.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_uk.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_uk.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_google.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_google.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_logout.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_logout.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_wheel.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_wheel.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnativecheckbox_img_ic_check_box.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnativecheckbox_img_ic_check_box.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_cssselect_lib_procedure.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_cssselect_lib_procedure.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_offnot.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_offnot.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_waiting.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_waiting.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_csstree_package.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_csstree_package.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_appstore.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_appstore.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_dot2.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_dot2.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_onnot.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_onnot.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_amazon.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_amazon.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnativecheckbox_img_ic_check_box.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnativecheckbox_img_ic_check_box.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_search.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_search.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_app.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/app.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_csstree_data_patch.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_csstree_data_patch.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_intro3.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_intro3.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_bgwheel.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_bgwheel.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_knob.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_knob.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_completed.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_completed.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_lib_maps_decode.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_entities_lib_maps_decode.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_logo.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_logo.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_announce.jpg.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_announce.jpg"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_photo.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_photo.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_dot3.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_dot3.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_video.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_video.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/raw_node_modules_domserializer_foreignnames.json.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/raw/node_modules_domserializer_foreignnames.json"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_intro2.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_intro2.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_images_tikmoneylogo.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_images_tikmoneylogo.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_store.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_store.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icons_language.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-mdpi/assets_icons_language.png"
+    },
+    {
+        "merged": "/Users/irfan/Desktop/TikMoney/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png.flat",
+        "source": "/Users/irfan/Desktop/TikMoney/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png"
+    }
+]

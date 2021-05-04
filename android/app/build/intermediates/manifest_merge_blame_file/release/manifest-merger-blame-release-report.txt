@@ -1,0 +1,476 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tikmoney"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:5:5-64
+12-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+13-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:6:5-77
+13-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:6:22-75
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:7:5-66
+14-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:7:22-63
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:8:5-80
+15-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-68
+16-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-65
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-79
+17-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-76
+18
+19    <queries>
+19-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-14:15
+20        <intent>
+20-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:9-13:18
+21            <action android:name="android.media.action.IMAGE_CAPTURE" />
+21-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-73
+21-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:21-70
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-81
+25-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:22-78
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:5-82
+26-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:22-79
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+27-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:22-107
+28    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+29    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+30    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+31    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+32    <!-- for Samsung -->
+33    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+34    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+35    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+36    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+37    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+38    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+39    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+40    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+41    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+42    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+43    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+44    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+45    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+46    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+47    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+48    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/irfan/.gradle/caches/transforms-2/files-2.1/48b8a231b9cc983999685684d54cfd68/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+49
+50    <application
+50-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:10:5-54:19
+51        android:name="com.tikmoney.MainApplication"
+51-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:12:7-38
+52        android:allowBackup="false"
+52-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:16:7-34
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/836895203cb79edb49b61f99df5b5412/core-1.1.0/AndroidManifest.xml:24:18-86
+54        android:icon="@mipmap/ic_launcher"
+54-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:14:7-41
+55        android:label="@string/app_name"
+55-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:13:7-39
+56        android:roundIcon="@mipmap/ic_launcher_round"
+56-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:15:7-52
+57        android:theme="@style/AppTheme"
+57-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:17:7-38
+58        android:usesCleartextTraffic="true" >
+58-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:11:7-42
+59        <activity
+59-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:18:7-27:18
+60            android:name="com.tikmoney.MainActivity"
+60-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:19:9-37
+61            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+61-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:21:9-79
+62            android:label="@string/app_name"
+62-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:20:9-41
+63            android:windowSoftInputMode="adjustResize" >
+63-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:22:9-51
+64            <intent-filter>
+64-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:23:9-26:25
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:24:13-65
+65-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:24:21-62
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:25:13-73
+67-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:25:23-70
+68            </intent-filter>
+69        </activity>
+70        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+70-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:28:7-84
+70-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:28:17-81
+71
+72        <meta-data
+72-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:30:7-31:44
+73            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+73-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:30:19-95
+74            android:value="false" />
+74-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:31:21-42
+75        <!-- Change the resource name to your App's accent color - or any other color you want -->
+76        <meta-data
+76-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:33:9-34:54
+77            android:name="com.dieam.reactnativepushnotification.notification_color"
+77-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:33:21-92
+78            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+78-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:34:21-52
+79
+80        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+80-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:36:9-108
+80-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:36:19-105
+81        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+81-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:37:9-110
+81-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:37:19-107
+82        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+82-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:38:9-44:20
+82-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:38:19-115
+83            <intent-filter>
+83-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:39:13-43:29
+84                <action android:name="android.intent.action.BOOT_COMPLETED" />
+84-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:40:17-79
+84-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:40:25-76
+85                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+85-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:41:17-82
+85-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:41:25-79
+86                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+86-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:42:17-81
+86-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:42:25-79
+87            </intent-filter>
+88        </receiver>
+89
+90        <service
+90-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:46:9-52:19
+91            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+91-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:47:13-107
+92            android:exported="false" >
+92-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:48:13-37
+93            <intent-filter>
+93-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:49:13-51:29
+94                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+94-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:50:17-78
+94-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:50:25-75
+95            </intent-filter>
+96        </service>
+97        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+97-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-111
+97-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:18-108
+98        <service
+98-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-23:19
+99            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+99-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-95
+100            android:exported="false" >
+100-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
+101            <intent-filter>
+101-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:49:13-51:29
+102                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+102-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:50:17-78
+102-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:50:25-75
+103            </intent-filter>
+104        </service>
+105
+106        <receiver
+106-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-32:20
+107            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+107-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:13-96
+108            android:exported="true"
+108-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:13-36
+109            android:permission="com.google.android.c2dm.permission.SEND" >
+109-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:28:13-73
+110            <intent-filter>
+110-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+111                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+111-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+111-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+112            </intent-filter>
+113        </receiver>
+114
+115        <meta-data
+115-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:34:9-36:36
+116            android:name="firebase_messaging_auto_init_enabled"
+116-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-64
+117            android:value="true" />
+117-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-33
+118        <meta-data
+118-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:9-39:32
+119            android:name="com.google.firebase.messaging.default_notification_channel_id"
+119-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-89
+120            android:value="" />
+120-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-29
+121        <meta-data
+121-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:9-42:47
+122            android:name="com.google.firebase.messaging.default_notification_color"
+122-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-84
+123            android:resource="@color/white" />
+123-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-44
+124
+125        <provider
+125-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:9-27:20
+126            android:name="androidx.core.content.FileProvider"
+126-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-62
+127            android:authorities="com.tikmoney.provider"
+127-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-60
+128            android:exported="false"
+128-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-37
+129            android:grantUriPermissions="true" >
+129-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-47
+130            <meta-data
+130-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-26:58
+131                android:name="android.support.FILE_PROVIDER_PATHS"
+131-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+132                android:resource="@xml/provider_paths" />
+132-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:17-55
+133        </provider>
+134
+135        <activity
+135-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:9-31:72
+136            android:name="com.yalantis.ucrop.UCropActivity"
+136-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:13-60
+137            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+137-->[:react-native-image-crop-picker] /Users/irfan/Desktop/TikMoney/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-69
+138
+139        <receiver
+139-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:28:9-35:20
+140            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+140-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:29:13-78
+141            android:exported="true"
+141-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:30:13-36
+142            android:permission="com.google.android.c2dm.permission.SEND" >
+142-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:31:13-73
+143            <intent-filter>
+143-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+144                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+144-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+144-->[:react-native-firebase_messaging] /Users/irfan/Desktop/TikMoney/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+145            </intent-filter>
+146        </receiver>
+147        <!--
+148             FirebaseMessagingService performs security checks at runtime,
+149             but set to not exported to explicitly avoid allowing another app to call it.
+150        -->
+151        <service
+151-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:41:9-48:19
+152            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+152-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:42:13-82
+153            android:directBootAware="true"
+153-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:43:13-43
+154            android:exported="false" >
+154-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:44:13-37
+155            <intent-filter android:priority="-500" >
+155-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:49:13-51:29
+156                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+156-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:50:17-78
+156-->/Users/irfan/Desktop/TikMoney/android/app/src/main/AndroidManifest.xml:50:25-75
+157            </intent-filter>
+158        </service>
+159        <service
+159-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:49:9-55:19
+160            android:name="com.google.firebase.components.ComponentDiscoveryService"
+160-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:50:13-84
+161            android:directBootAware="true"
+161-->[com.google.firebase:firebase-common:19.5.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/c97c421c7083c1393f5889b5cc2c5043/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+162            android:exported="false" >
+162-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:51:13-37
+163            <meta-data
+163-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:52:13-54:85
+164                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+164-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:53:17-119
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-messaging:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/974c5d858df8d91a559f4f677c402600/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:54:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/irfan/.gradle/caches/transforms-2/files-2.1/210153afcccffac5b1aa0b8361f2a4ab/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+167                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+167-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/irfan/.gradle/caches/transforms-2/files-2.1/210153afcccffac5b1aa0b8361f2a4ab/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/irfan/.gradle/caches/transforms-2/files-2.1/210153afcccffac5b1aa0b8361f2a4ab/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-iid:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/a04a4ae0918733598ede73a9f0df1932/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+170                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+170-->[com.google.firebase:firebase-iid:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/a04a4ae0918733598ede73a9f0df1932/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-iid:21.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/a04a4ae0918733598ede73a9f0df1932/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+172            <meta-data
+172-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/0910c86630cae20f7c7ec9f7f5b5529f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:30:13-32:85
+173                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+173-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/0910c86630cae20f7c7ec9f7f5b5529f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:31:17-139
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/0910c86630cae20f7c7ec9f7f5b5529f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:32:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-installations:16.3.5] /Users/irfan/.gradle/caches/transforms-2/files-2.1/67c82d86d1e06f07e6590f7b1d0679af/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+176                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+176-->[com.google.firebase:firebase-installations:16.3.5] /Users/irfan/.gradle/caches/transforms-2/files-2.1/67c82d86d1e06f07e6590f7b1d0679af/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-installations:16.3.5] /Users/irfan/.gradle/caches/transforms-2/files-2.1/67c82d86d1e06f07e6590f7b1d0679af/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+178            <!--
+179                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+180                clients to use it as well, by defining this registrar in their own core/common library.
+181            -->
+182            <meta-data
+182-->[com.google.firebase:firebase-common:19.5.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/c97c421c7083c1393f5889b5cc2c5043/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+183                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+183-->[com.google.firebase:firebase-common:19.5.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/c97c421c7083c1393f5889b5cc2c5043/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-common:19.5.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/c97c421c7083c1393f5889b5cc2c5043/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+185        </service>
+186        <service
+186-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/irfan/.gradle/caches/transforms-2/files-2.1/f0d4c0cffdf5e5386ce5d7c428f5bc71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+187            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+187-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/irfan/.gradle/caches/transforms-2/files-2.1/f0d4c0cffdf5e5386ce5d7c428f5bc71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+188            android:exported="false" >
+188-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/irfan/.gradle/caches/transforms-2/files-2.1/f0d4c0cffdf5e5386ce5d7c428f5bc71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+189            <meta-data
+189-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/irfan/.gradle/caches/transforms-2/files-2.1/f0d4c0cffdf5e5386ce5d7c428f5bc71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+190                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+190-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/irfan/.gradle/caches/transforms-2/files-2.1/f0d4c0cffdf5e5386ce5d7c428f5bc71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+191                android:value="cct" />
+191-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/irfan/.gradle/caches/transforms-2/files-2.1/f0d4c0cffdf5e5386ce5d7c428f5bc71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+192        </service>
+193
+194        <provider
+194-->[com.google.firebase:firebase-common:19.5.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/c97c421c7083c1393f5889b5cc2c5043/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+195            android:name="com.google.firebase.provider.FirebaseInitProvider"
+195-->[com.google.firebase:firebase-common:19.5.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/c97c421c7083c1393f5889b5cc2c5043/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+196            android:authorities="com.tikmoney.firebaseinitprovider"
+196-->[com.google.firebase:firebase-common:19.5.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/c97c421c7083c1393f5889b5cc2c5043/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-common:19.5.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/c97c421c7083c1393f5889b5cc2c5043/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+198            android:exported="false"
+198-->[com.google.firebase:firebase-common:19.5.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/c97c421c7083c1393f5889b5cc2c5043/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+199            android:initOrder="100" />
+199-->[com.google.firebase:firebase-common:19.5.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/c97c421c7083c1393f5889b5cc2c5043/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+200
+201        <service
+201-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/irfan/.gradle/caches/transforms-2/files-2.1/999d17d50eca762d016c43695ad2dd6e/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+202            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+202-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/irfan/.gradle/caches/transforms-2/files-2.1/999d17d50eca762d016c43695ad2dd6e/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+203            android:exported="false"
+203-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/irfan/.gradle/caches/transforms-2/files-2.1/999d17d50eca762d016c43695ad2dd6e/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+204            android:permission="android.permission.BIND_JOB_SERVICE" >
+204-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/irfan/.gradle/caches/transforms-2/files-2.1/999d17d50eca762d016c43695ad2dd6e/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+205        </service>
+206
+207        <receiver
+207-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/irfan/.gradle/caches/transforms-2/files-2.1/999d17d50eca762d016c43695ad2dd6e/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+208            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+208-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/irfan/.gradle/caches/transforms-2/files-2.1/999d17d50eca762d016c43695ad2dd6e/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+209            android:exported="false" />
+209-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/irfan/.gradle/caches/transforms-2/files-2.1/999d17d50eca762d016c43695ad2dd6e/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+210
+211        <activity
+211-->[com.google.android.gms:play-services-auth:19.0.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/e53f1501c20979b6cf2bf127e9582c57/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+212            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+212-->[com.google.android.gms:play-services-auth:19.0.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/e53f1501c20979b6cf2bf127e9582c57/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+213            android:excludeFromRecents="true"
+213-->[com.google.android.gms:play-services-auth:19.0.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/e53f1501c20979b6cf2bf127e9582c57/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+214            android:exported="false"
+214-->[com.google.android.gms:play-services-auth:19.0.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/e53f1501c20979b6cf2bf127e9582c57/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+215            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+215-->[com.google.android.gms:play-services-auth:19.0.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/e53f1501c20979b6cf2bf127e9582c57/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+216        <!--
+217            Service handling Google Sign-In user revocation. For apps that do not integrate with
+218            Google Sign-In, this service will never be started.
+219        -->
+220        <service
+220-->[com.google.android.gms:play-services-auth:19.0.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/e53f1501c20979b6cf2bf127e9582c57/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+221            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+221-->[com.google.android.gms:play-services-auth:19.0.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/e53f1501c20979b6cf2bf127e9582c57/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+222            android:exported="true"
+222-->[com.google.android.gms:play-services-auth:19.0.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/e53f1501c20979b6cf2bf127e9582c57/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+223            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+223-->[com.google.android.gms:play-services-auth:19.0.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/e53f1501c20979b6cf2bf127e9582c57/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+224            android:visibleToInstantApps="true" />
+224-->[com.google.android.gms:play-services-auth:19.0.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/e53f1501c20979b6cf2bf127e9582c57/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+225
+226        <receiver
+226-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:29:9-33:20
+227            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+227-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:30:13-85
+228            android:enabled="true"
+228-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:31:13-35
+229            android:exported="false" >
+229-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:32:13-37
+230        </receiver>
+231
+232        <service
+232-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:35:9-38:40
+233            android:name="com.google.android.gms.measurement.AppMeasurementService"
+233-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:36:13-84
+234            android:enabled="true"
+234-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:37:13-35
+235            android:exported="false" />
+235-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:38:13-37
+236        <service
+236-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:39:9-43:72
+237            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+237-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:40:13-87
+238            android:enabled="true"
+238-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:41:13-35
+239            android:exported="false"
+239-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:42:13-37
+240            android:permission="android.permission.BIND_JOB_SERVICE" />
+240-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/irfan/.gradle/caches/transforms-2/files-2.1/94508f0dda3c757f8b49904443382759/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:43:13-69
+241
+242        <activity
+242-->[com.google.android.gms:play-services-base:17.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/3e57383bd944d40a24035342cb4ab7c6/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+243            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+243-->[com.google.android.gms:play-services-base:17.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/3e57383bd944d40a24035342cb4ab7c6/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+244            android:exported="false"
+244-->[com.google.android.gms:play-services-base:17.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/3e57383bd944d40a24035342cb4ab7c6/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+245            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+245-->[com.google.android.gms:play-services-base:17.1.0] /Users/irfan/.gradle/caches/transforms-2/files-2.1/3e57383bd944d40a24035342cb4ab7c6/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+246
+247        <meta-data
+247-->[com.google.android.gms:play-services-basement:17.1.1] /Users/irfan/.gradle/caches/transforms-2/files-2.1/d9edd8b1e77cff1114e8a396a87202c1/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+248            android:name="com.google.android.gms.version"
+248-->[com.google.android.gms:play-services-basement:17.1.1] /Users/irfan/.gradle/caches/transforms-2/files-2.1/d9edd8b1e77cff1114e8a396a87202c1/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+249            android:value="@integer/google_play_services_version" />
+249-->[com.google.android.gms:play-services-basement:17.1.1] /Users/irfan/.gradle/caches/transforms-2/files-2.1/d9edd8b1e77cff1114e8a396a87202c1/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+250    </application>
+251
+252</manifest>

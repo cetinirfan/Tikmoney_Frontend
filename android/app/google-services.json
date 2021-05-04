@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "721159524899",
+    "project_id": "tikmoney-a6261",
+    "storage_bucket": "tikmoney-a6261.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721159524899:android:453b7a15abe1089d651796",
+        "android_client_info": {
+          "package_name": "com.tikmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721159524899-hj8ueddmdccns16nrdh0s38702mtnqv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tikmoney",
+            "certificate_hash": "a0438b1a2e552d54e7a4a7b06126a18fc2c48b1e"
+          }
+        },
+        {
+          "client_id": "721159524899-vtqrmjpvlm0dk3vjiour77iv2sdfd5om.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tikmoney",
+            "certificate_hash": "8386edb0b8f016afe0208e4a107523e7e494827d"
+          }
+        },
+        {
+          "client_id": "721159524899-drmdkr5tjpi35c1pq8dvdiugpc75ju09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0eq2uH9Ce9uDLY5M3W6NvXQhqA0FMaYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721159524899-drmdkr5tjpi35c1pq8dvdiugpc75ju09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "721159524899-11kmv92aq54fbk92rljsq79dtdas2bnm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.TikMoney"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

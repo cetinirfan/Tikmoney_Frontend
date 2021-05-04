@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">721159524899-drmdkr5tjpi35c1pq8dvdiugpc75ju09.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">721159524899</string>
+    <string name="google_api_key" translatable="false">AIzaSyB0eq2uH9Ce9uDLY5M3W6NvXQhqA0FMaYI</string>
+    <string name="google_app_id" translatable="false">1:721159524899:android:453b7a15abe1089d651796</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB0eq2uH9Ce9uDLY5M3W6NvXQhqA0FMaYI</string>
+    <string name="google_storage_bucket" translatable="false">tikmoney-a6261.appspot.com</string>
+    <string name="project_id" translatable="false">tikmoney-a6261</string>
+</resources>
